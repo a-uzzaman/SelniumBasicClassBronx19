@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-05-26T19:54:45Z" name="Default suite" finished-at="2019-05-26T19:55:04Z" duration-ms="19182">
+  <suite started-at="2019-06-09T21:07:51Z" name="Default suite" finished-at="2019-06-09T21:08:53Z" duration-ms="61720">
     <groups>
     </groups>
-    <test started-at="2019-05-26T19:54:45Z" name="Default test" finished-at="2019-05-26T19:55:04Z" duration-ms="19182">
-      <class name="SeleniumBasics.locators">
-        <test-method signature="openBrowser()[pri:0, instance:SeleniumBasics.locators@198b6731]" started-at="2019-05-26T19:54:45Z" name="openBrowser" finished-at="2019-05-26T19:55:04Z" duration-ms="19123" status="PASS">
+    <test started-at="2019-06-09T21:07:51Z" name="Default test" finished-at="2019-06-09T21:08:53Z" duration-ms="61720">
+      <class name="SeleniumBasics.DifferentActions">
+        <test-method signature="alertTest()[pri:0, instance:SeleniumBasics.DifferentActions@3c9754d8]" started-at="2019-06-09T21:07:51Z" name="alertTest" finished-at="2019-06-09T21:08:17Z" duration-ms="26381" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-      </class> <!-- SeleniumBasics.locators -->
+        </test-method> <!-- alertTest -->
+        <test-method signature="iframeTest()[pri:0, instance:SeleniumBasics.DifferentActions@3c9754d8]" started-at="2019-06-09T21:08:17Z" name="iframeTest" finished-at="2019-06-09T21:08:53Z" duration-ms="35258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframeTest -->
+      </class> <!-- SeleniumBasics.DifferentActions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
